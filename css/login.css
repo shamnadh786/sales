@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin:0;
+    padding: 0;
+   height: 100%;
+   
+}
+.main{
+    height: 100%;
+    background-image: url("../images/photography-lenses-oranges.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.container{
+    max-width: 500px;
+    height:450px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   background-color: rgba(32, 27, 27, 0.8);
+   color:#fff;
+    
+}
+.container-head{
+    margin-top:-40px;
+   
+}
+.container-head h1{
+    margin-top:0px;
+    text-transform: capitalize;
+    font-family: Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    padding-bottom: 15px;
+
+}
+.form-control{
+    /*width: 350px;*/
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 140px;
+    
+}
+
+.mr-3{
+    font-size: 1.8rem;
+    margin-top:20px ;
+    margin-left: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+.mr-3:hover{
+
+    text-decoration: none;
+    color: #c2b612;
+}
+.bttn{
+    margin-left: 0px;
+}
+.alert{
+    position: absolute;
+    top:70%;
+    left:43%;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px) {
+    .main{
+        min-width: 280px;
+    }
+    .navbar{
+        z-index: 1;
+        position: relative;
+        min-width: 280px;
+    }
+
+    .container{
+        top:60%;
+    }
+    
+}

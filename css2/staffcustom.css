@@ -1,0 +1,25 @@
+.fm{
+    margin-top: 15px;
+}
+.header{
+    width: 100%;
+}
+.col-md-12{
+    overflow-x: auto;
+}
+.form-control{
+   min-width:100%;
+  width: unset;
+  
+}
+
+@media screen and (max-width:375px) {
+    .select2{
+        max-width: 360px;
+    }
+     
+ }
+
+
+
+
